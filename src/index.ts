@@ -2,7 +2,6 @@ import * as http from "http";
 import Server from "./server";
 
 const port = normalizePort(process.env.PORT || 4000);
-Server.set("port", port);
 
 console.log(`Server listening on port ${port}`);
 
